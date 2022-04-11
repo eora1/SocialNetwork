@@ -5,7 +5,6 @@ import container_style from "./style/container.module.css"
 import {Aside} from "./components/aside/Aside";
 import {Header} from "./components/header/Header";
 import {Profile} from "./components/main/MyPosts/Profile";
-import {Footer} from "./components/footer/Footer";
 
 
 
@@ -15,7 +14,6 @@ function App() {
        <Header/>
         <Aside/>
         <Profile/>
-        <Footer/>
     </div>
   );
 }

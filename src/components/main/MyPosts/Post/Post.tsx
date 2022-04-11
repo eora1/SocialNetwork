@@ -1,11 +1,14 @@
 import React from "react";
 import style_post from "./post.module.css"
 
-export function Post(){
+type PostPropsType={
+    message:string
+}
+export function Post(props:PostPropsType){
     return(
         <div>
             <img src="/img/post/istockphoto-1190613233-170667a.jpeg" alt="post" className={style_post.post_img}/>
-            post1
+            {props.message}
             <div>
                 <span>like</span>
             </div>

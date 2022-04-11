@@ -10,9 +10,8 @@ export function MyPosts(){
                 New post
             </div>
             <div>
-               <Post/>
-                <Post/>
-                <Post/>
+               <Post message = 'Hi ! how are you ?' />
+                <Post message = 'Its my first post' />
             </div>
         </div>
     );
