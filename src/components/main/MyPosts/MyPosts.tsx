@@ -10,8 +10,8 @@ export function MyPosts(){
                 New post
             </div>
             <div>
-               <Post message = 'Hi ! how are you ?' />
-                <Post message = 'Its my first post' />
+               <Post message ={'Hi ! how are you ?'} count={10} />
+                <Post message ={'Its my first post'} count={15}/>
             </div>
         </div>
     );
