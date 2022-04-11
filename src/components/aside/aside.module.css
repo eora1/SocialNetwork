@@ -1,0 +1,9 @@
+.aside{
+    grid-area: aside;
+    background-color: bisque;
+}
+
+.active{
+    color: red;
+}
+

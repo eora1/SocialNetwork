@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="663c77b7-03b6-4073-865f-5d52afdcb024" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27FAgDUyQi0Iz0DkHDncFdPXjk0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "ts.external.directory.path": "/Users/eora/Desktop/it-incubator/samurai-way-main/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/style" />
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/img/main" />
+      <recent name="$PROJECT_DIR$/public/img/logo" />
+      <recent name="$PROJECT_DIR$/src/components/main/MyPosts" />
+      <recent name="$PROJECT_DIR$/src/components/main" />
+      <recent name="$PROJECT_DIR$/src/components/header" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="663c77b7-03b6-4073-865f-5d52afdcb024" name="Changes" comment="" />
+      <created>1648905568393</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648905568393</updated>
+      <workItem from="1648905569470" duration="6517000" />
+      <workItem from="1649022780709" duration="5068000" />
+      <workItem from="1649092458897" duration="1022000" />
+      <workItem from="1649093564441" duration="1469000" />
+      <workItem from="1649188308705" duration="7000" />
+      <workItem from="1649272743400" duration="1268000" />
+      <workItem from="1649359406170" duration="1423000" />
+      <workItem from="1649411015441" duration="2210000" />
+      <workItem from="1649417767134" duration="2740000" />
+      <workItem from="1649422690286" duration="834000" />
+      <workItem from="1649423866885" duration="59000" />
+      <workItem from="1649423963497" duration="991000" />
+      <workItem from="1649425012432" duration="183000" />
+      <workItem from="1649425227664" duration="1951000" />
+      <workItem from="1649438671864" duration="681000" />
+      <workItem from="1649441171324" duration="800000" />
+      <workItem from="1649442254876" duration="1063000" />
+      <workItem from="1649443358738" duration="6397000" />
+      <workItem from="1649506255943" duration="467000" />
+      <workItem from="1649506729811" duration="7000" />
+      <workItem from="1649506739003" duration="4495000" />
+      <workItem from="1649586183399" duration="411000" />
+      <workItem from="1649586754124" duration="700000" />
+      <workItem from="1649677608163" duration="2148000" />
+      <workItem from="1649681187249" duration="3675000" />
+      <workItem from="1649688570153" duration="995000" />
+      <workItem from="1649689568881" duration="1959000" />
+      <workItem from="1649693388336" duration="4711000" />
+      <workItem from="1649698849750" duration="2053000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

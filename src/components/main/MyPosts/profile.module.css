@@ -1,0 +1,9 @@
+.main{
+    grid-area: main;
+    background-color: aqua;
+}
+
+.main_img{
+    width: 950px;
+    height: 200px;
+}
