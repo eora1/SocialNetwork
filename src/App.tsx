@@ -5,6 +5,7 @@ import container_style from "./style/container.module.css"
 import {Aside} from "./components/aside/Aside";
 import {Header} from "./components/header/Header";
 import {Profile} from "./components/main/MyPosts/Profile";
+import {Dialog} from "./components/main/Dialogs/Dialog";
 
 
 
@@ -13,7 +14,10 @@ function App() {
     <div className={classNames(wrap_style.wrapper, container_style.container)}>
        <Header/>
         <Aside/>
-        <Profile/>
+        <div className={wrap_style.wrapper_profile}>
+            <Dialog/>
+        </div>
+        {/*<Profile/>*/}
     </div>
   );
 }
