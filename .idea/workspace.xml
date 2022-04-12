@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="663c77b7-03b6-4073-865f-5d52afdcb024" name="Changes" comment="17 les">
-      <change afterPath="$PROJECT_DIR$/src/components/main/Dialogs/Dialog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/Dialogs/dialog.module.css" afterDir="false" />
+    <list default="true" id="663c77b7-03b6-4073-865f-5d52afdcb024" name="Changes" comment="19 les">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/aside/Aside.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/aside/Aside.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/aside/aside.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/aside/aside.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/MyPosts/MyPosts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/MyPosts/MyPosts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/MyPosts/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/MyPosts/Profile.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/MyPosts/profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/MyPosts/profile.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/wrapper.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/wrapper.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/MyPosts/Post/Post.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/MyPosts/Post/Post.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/MyPosts/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Profile/Profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/MyPosts/profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Profile/profile.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +30,10 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/eora/Desktop/it-incubator/samurai-way-main/src/components/main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
@@ -41,15 +44,18 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/main" />
+      <recent name="$PROJECT_DIR$/src/components/main/Settings" />
+      <recent name="$PROJECT_DIR$/src/components/main/News" />
       <recent name="$PROJECT_DIR$/src/style" />
       <recent name="$PROJECT_DIR$/src/components" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/main/Profile" />
       <recent name="$PROJECT_DIR$/public/img/main" />
       <recent name="$PROJECT_DIR$/public/img/logo" />
       <recent name="$PROJECT_DIR$/src/components/main/MyPosts" />
       <recent name="$PROJECT_DIR$/src/components/main" />
-      <recent name="$PROJECT_DIR$/src/components/header" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -91,7 +97,20 @@
       <workItem from="1649698849750" duration="5302000" />
       <workItem from="1649712643713" duration="3315000" />
       <workItem from="1649761107480" duration="4232000" />
-      <workItem from="1649771125287" duration="2427000" />
+      <workItem from="1649771125287" duration="4581000" />
+      <workItem from="1649775787837" duration="2046000" />
+      <workItem from="1649778017854" duration="4049000" />
+      <workItem from="1650025219645" duration="15000" />
+      <workItem from="1650661375726" duration="12000" />
+      <workItem from="1650751539665" duration="8000" />
+      <workItem from="1650881015312" duration="234000" />
+      <workItem from="1650981144750" duration="286000" />
+      <workItem from="1650986804654" duration="841000" />
+      <workItem from="1651079811272" duration="6000" />
+      <workItem from="1651419967877" duration="36000" />
+      <workItem from="1651424852115" duration="41000" />
+      <workItem from="1652192854172" duration="2000" />
+      <workItem from="1654986068097" duration="9099000" />
     </task>
     <task id="LOCAL-00001" summary="15_01 les">
       <created>1649703072171</created>
@@ -114,7 +133,21 @@
       <option name="project" value="LOCAL" />
       <updated>1649715321314</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="18 les">
+      <created>1649773651250</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649773651250</updated>
+    </task>
+    <task id="LOCAL-00005" summary="19 les">
+      <created>1649783062369</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1649783062369</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +168,8 @@
     <MESSAGE value="15_01 les" />
     <MESSAGE value="16 les" />
     <MESSAGE value="17 les" />
-    <option name="LAST_COMMIT_MESSAGE" value="17 les" />
+    <MESSAGE value="18 les" />
+    <MESSAGE value="19 les" />
+    <option name="LAST_COMMIT_MESSAGE" value="19 les" />
   </component>
 </project>

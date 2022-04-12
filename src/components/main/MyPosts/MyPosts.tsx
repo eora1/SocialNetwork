@@ -10,8 +10,8 @@ export function MyPosts(){
                 <button>Add</button>
             </div>
             <div>
-               <Post message ={'Hi ! how are you ?'} count={10} />
-                <Post message ={'Its my first post'} count={15}/>
+               <Post message ={'Hi ! how are you ?'} likeCount={10} />
+                <Post message ={'Its my first post'} likeCount={15}/>
             </div>
         </div>
     );
