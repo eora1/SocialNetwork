@@ -10,7 +10,7 @@
 }
 
 
-.wrapper_profile{
+.wrapper_content{
     grid-area: main;
     background-color: aqua;
 }

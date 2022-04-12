@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="663c77b7-03b6-4073-865f-5d52afdcb024" name="Changes" comment="17 les">
-      <change afterPath="$PROJECT_DIR$/src/components/main/Dialogs/Dialog.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/main/Dialogs/dialog.module.css" afterDir="false" />
+    <list default="true" id="663c77b7-03b6-4073-865f-5d52afdcb024" name="Changes" comment="18 les">
+      <change afterPath="$PROJECT_DIR$/src/components/main/Music/Music.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/Music/music_style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/News/News.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/News/news_style.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/Settings/Settings.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/main/Settings/settings_style.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/MyPosts/MyPosts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/MyPosts/MyPosts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/MyPosts/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/MyPosts/Profile.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/MyPosts/profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/MyPosts/profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/aside/Aside.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/aside/Aside.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/wrapper.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/wrapper.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,19 +32,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/eora/Desktop/it-incubator/samurai-way-main/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/eora/Desktop/it-incubator/samurai-way-main/src/components/main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "ts.external.directory.path": "/Users/eora/Desktop/it-incubator/samurai-way-main/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/main" />
+      <recent name="$PROJECT_DIR$/src/components/main/Settings" />
+      <recent name="$PROJECT_DIR$/src/components/main/News" />
       <recent name="$PROJECT_DIR$/src/style" />
       <recent name="$PROJECT_DIR$/src/components" />
     </key>
@@ -91,7 +99,9 @@
       <workItem from="1649698849750" duration="5302000" />
       <workItem from="1649712643713" duration="3315000" />
       <workItem from="1649761107480" duration="4232000" />
-      <workItem from="1649771125287" duration="2427000" />
+      <workItem from="1649771125287" duration="4581000" />
+      <workItem from="1649775787837" duration="2046000" />
+      <workItem from="1649778017854" duration="2758000" />
     </task>
     <task id="LOCAL-00001" summary="15_01 les">
       <created>1649703072171</created>
@@ -114,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1649715321314</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="18 les">
+      <created>1649773651250</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1649773651250</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +152,7 @@
     <MESSAGE value="15_01 les" />
     <MESSAGE value="16 les" />
     <MESSAGE value="17 les" />
-    <option name="LAST_COMMIT_MESSAGE" value="17 les" />
+    <MESSAGE value="18 les" />
+    <option name="LAST_COMMIT_MESSAGE" value="18 les" />
   </component>
 </project>

@@ -6,19 +6,19 @@ export function Aside(){
         <nav className={aside_style.aside}>
             <ul>
                 <li className={aside_style.active}>
-                    <a href="#">Profile</a>
+                    <a href="/profile">Profile</a>
                 </li>
                 <li>
-                    <a href="#">Messages</a>
+                    <a href="/dialog">Messages</a>
                 </li>
                 <li>
-                    <a href="#">News</a>
+                    <a href="/news">News</a>
                 </li>
                 <li>
-                    <a href="#">Music</a>
+                    <a href="/music">Music</a>
                 </li>
                 <li>
-                    <a href="#">Settings</a>
+                    <a href="/settings">Settings</a>
                 </li>
             </ul>
         </nav>
