@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="663c77b7-03b6-4073-865f-5d52afdcb024" name="Changes" comment="19 les">
+    <list default="true" id="da2c1437-9451-41d6-af45-fe3f611729a0" name="Changes" comment="19 les">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/aside/Aside.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/aside/Aside.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/aside/aside.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/aside/aside.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/MyPosts/MyPosts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/MyPosts/MyPosts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/MyPosts/Post/Post.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/MyPosts/Post/Post.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/MyPosts/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Profile/Profile.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/MyPosts/profile.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Profile/profile.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/Dialogs/Dialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Dialogs/Dialog.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/Dialogs/dialog.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Dialogs/dialog.module.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
