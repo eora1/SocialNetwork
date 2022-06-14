@@ -10,7 +10,7 @@ export function Aside() {
                     <NavLink to="/profile" className={i=>i.isActive ? aside_style.active : aside_style.item}>Profile</NavLink>
                 </li>
                 <li className={aside_style.item}>
-                    <NavLink to="/dialog" className={i=>i.isActive ? aside_style.active : aside_style.item}>Messages</NavLink>
+                    <NavLink to="/dialogs" className={i=>i.isActive ? aside_style.active : aside_style.item}>Messages</NavLink>
                 </li>
                 <li className={aside_style.item}>
                     <NavLink to="/news" className={i=>i.isActive ? aside_style.active : aside_style.item}>News</NavLink>
