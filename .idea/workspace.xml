@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da2c1437-9451-41d6-af45-fe3f611729a0" name="Changes" comment="23 les">
+    <list default="true" id="da2c1437-9451-41d6-af45-fe3f611729a0" name="Changes" comment="24 les">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/Dialogs/Dialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Dialogs/Dialog.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/MyPosts/MyPosts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/MyPosts/MyPosts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/MyPosts/Post/Post.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/MyPosts/Post/Post.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +106,7 @@
       <workItem from="1651424852115" duration="41000" />
       <workItem from="1652192854172" duration="2000" />
       <workItem from="1654986068097" duration="9099000" />
-      <workItem from="1655246753966" duration="2391000" />
+      <workItem from="1655246753966" duration="4566000" />
     </task>
     <task id="LOCAL-00001" summary="15_01 les">
       <created>1649703072171</created>
@@ -174,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655244230079</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="24 les">
+      <created>1655249163725</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1655249163725</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,6 +204,7 @@
     <MESSAGE value="21 les" />
     <MESSAGE value="22 les" />
     <MESSAGE value="23 les" />
-    <option name="LAST_COMMIT_MESSAGE" value="23 les" />
+    <MESSAGE value="24 les" />
+    <option name="LAST_COMMIT_MESSAGE" value="24 les" />
   </component>
 </project>

@@ -17,7 +17,7 @@ const DialogItem: React.FC<DialogItemProps> = (props) => {
 }
 
 type MessageProps = {
-    id:string
+    id: string
     message: string
 }
 const Message: React.FC<MessageProps> = (props) => {
@@ -34,30 +34,28 @@ export function Dialog() {
         {id: v1(), name: 'Sasha'},
         {id: v1(), name: 'Victor'},
         {id: v1(), name: 'Valeriy'},
-    ]
+    ];
+    let dialogElement = dialogsData.map((i) => {
+        return <DialogItem name={i.name} id={i.id}/>
+    });
 
     let messagesData = [
         {id: v1(), message: 'Hi'},
         {id: v1(), message: 'How is your it-kamasutra?'},
         {id: v1(), message: 'Yo'},
-    ]
+    ];
+    let messageElement = messagesData.map((m) => {
+        return <Message message={m.message} id={m.id}/>
+    })
 
     return (
         <div>
             <div className={dialog_style.dialogs}>
                 <div className={dialog_style.dialogs_list}>
-                    <DialogItem name={dialogsData[0].name} id={dialogsData[0].id}/>
-                    <DialogItem name={dialogsData[1].name} id={dialogsData[1].id}/>
-                    <DialogItem name={dialogsData[2].name} id={dialogsData[2].id}/>
-                    <DialogItem name={dialogsData[3].name} id={dialogsData[3].id}/>
-                    <DialogItem name={dialogsData[4].name} id={dialogsData[4].id}/>
-                    <DialogItem name={dialogsData[5].name} id={dialogsData[5].id}/>
-
+                    {dialogElement}
                 </div>
                 <div className={dialog_style.messages}>
-                    <Message message={messagesData[0].message} id={messagesData[0].id}/>
-                    <Message message={messagesData[1].message} id={messagesData[1].id}/>
-                    <Message message={messagesData[2].message} id={messagesData[2].id}/>
+                    {messageElement}
                 </div>
             </div>
         </div>

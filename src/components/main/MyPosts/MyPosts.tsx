@@ -5,9 +5,12 @@ import {v1} from "uuid";
 
 export function MyPosts() {
     let postData = [
-        {id: v1(), message: 'Hi ! how are you ?', likeCount:12},
+        {id: v1(), message: 'Hi ! how are you ?', likeCount: 12},
         {id: v1(), message: 'Its my first post', likeCount: 20},
     ]
+    let postElement = postData.map((p) => {
+        return <Post id={p.id} message={p.message} likeCount={p.likeCount}/>
+    })
 
     return (
         <div className={myPostStyle.postBlock}>
@@ -21,8 +24,7 @@ export function MyPosts() {
                 </div>
             </div>
             <div className={myPostStyle.posts}>
-                <Post message={postData[0].message} id={postData[0].id} likeCount={postData[0].likeCount}/>
-                <Post message={postData[1].message} id={postData[1].id} likeCount={postData[1].likeCount}/>
+                {postElement}
             </div>
         </div>
     );
