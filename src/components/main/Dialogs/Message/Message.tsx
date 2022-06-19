@@ -1,5 +1,5 @@
 import React from 'react';
-import dialog_style from "../dialog.module.css";
+import messageStyle from './message.module.css'
 
 export type MessageProps = {
     id: string
@@ -7,7 +7,7 @@ export type MessageProps = {
 }
 export const Message: React.FC<MessageProps> = (props) => {
     return (
-        <div className={dialog_style.messages_item}>{props.message}</div>
+        <div>{props.message}</div>
     )
 };
 

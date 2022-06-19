@@ -11,6 +11,7 @@ import {News} from "./components/main/News/News";
 import {Music} from "./components/main/Music/Music";
 import {Settings} from "./components/main/Settings/Settings";
 import {StateType} from "./redux/state";
+import {Friends} from "./components/main/Friends/Friends";
 
 
 export const App: React.FC<StateType> = (props) => {
@@ -26,6 +27,7 @@ export const App: React.FC<StateType> = (props) => {
                         <Route path="/news" element={<News/>}/>
                         <Route path="/music" element={<Music/>}/>
                         <Route path="/settings" element={<Settings/>}/>
+                        <Route path="/friends" element={<Friends/>}/>
                     </Routes>
                 </div>
             </div>

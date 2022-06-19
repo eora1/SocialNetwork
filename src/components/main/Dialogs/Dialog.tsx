@@ -11,8 +11,8 @@ type StateType = {
 
 export const Dialog: React.FC<StateType> = (props: StateType) => {
     let dialogsData = props.dialogPage.dialogsData;
-    let dialogElement = dialogsData.map((i) => {
-        return <DialogItem id={i.id} name={i.name}/>
+    let dialogElement = dialogsData.map((d) => {
+        return <DialogItem id={d.id} name={d.name}/>
     });
 
     let messagesData = props.dialogPage.messagesData;
@@ -21,14 +21,12 @@ export const Dialog: React.FC<StateType> = (props: StateType) => {
     });
 
     return (
-        <div>
-            <div className={dialog_style.dialogs}>
-                <div className={dialog_style.dialogs_list}>
-                    {dialogElement}
-                </div>
-                <div className={dialog_style.messages}>
-                    {messageElement}
-                </div>
+        <div className={dialog_style.dialogs}>
+            <div className={dialog_style.dialogs_list}>
+                {dialogElement}
+            </div>
+            <div className={dialog_style.dialogs_messages}>
+                {messageElement}
             </div>
         </div>
     );

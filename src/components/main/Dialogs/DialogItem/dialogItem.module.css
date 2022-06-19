@@ -1,0 +1,23 @@
+.dialogItemRow{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.dialogItemRow:last-child{
+    margin-bottom: 0;
+}
+
+.dialogItemImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.dialogItem a.active{
+    color: darksalmon;
+}
+
+.dialogItem a{
+    color: black;
+}

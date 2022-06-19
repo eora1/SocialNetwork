@@ -13,3 +13,11 @@
    color: darksalmon;
 }
 
+.name_row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.name{
+    font-size: 16px;
+}

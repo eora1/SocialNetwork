@@ -23,7 +23,13 @@ export let state:RootStateProps= {
             {id: v1(), message: 'Yo'},
         ],
     },
-    sideBar:{},
+    sideBar:{
+        friends: [
+            {id: v1(), name: 'Daniil'},
+            {id: v1(), name: 'Andrey'},
+            {id: v1(), name: 'Sveta'},
+        ],
+    },
 }
 
 export type DialogsDataProps = {
@@ -40,6 +46,11 @@ export type PostDataProps = {
     likeCount: number
 };
 
+export type SideBarDataProps={
+    id: string
+    name: string
+}
+
 export type ProfilePageProps = {
     postData: PostDataProps[]
 }
@@ -49,12 +60,14 @@ export type DialogPageProps = {
     messagesData: MessagesDataProps[]
 }
 
-export type SideBarProps={}
+export type SideBarProps={
+    friends: SideBarDataProps[]
+}
 
 export type RootStateProps = {
     profilePage: ProfilePageProps
     dialogPage: DialogPageProps
-    sideBar:{}
+    sideBar:SideBarProps
 }
 
 export type StateType = {

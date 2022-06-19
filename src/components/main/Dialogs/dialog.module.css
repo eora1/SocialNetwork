@@ -1,6 +1,7 @@
 .dialogs {
     display: grid;
     grid-template-columns: 2fr 10fr;
+
 }
 
 .dialogs_list {
@@ -11,14 +12,8 @@
     color: darksalmon;
 }
 
-.dialogs_item {
-
-}
-
-.messages {
+.dialogs_messages {
     padding: 10px;
 }
 
-.messages_item {
-}
 

@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da2c1437-9451-41d6-af45-fe3f611729a0" name="Changes" comment="25 les">
+    <list default="true" id="da2c1437-9451-41d6-af45-fe3f611729a0" name="Changes" comment="29 les">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/aside/Aside.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/aside/Aside.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/aside/aside.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/aside/aside.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/Dialogs/Dialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Dialogs/Dialog.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/MyPosts/MyPosts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/MyPosts/MyPosts.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/Profile/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Profile/Profile.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/main/Profile/ProfileInfo/ProfileInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Profile/ProfileInfo/ProfileInfo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/Dialogs/DialogItem/DialogItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Dialogs/DialogItem/DialogItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/Dialogs/Message/Message.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Dialogs/Message/Message.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/Dialogs/dialog.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Dialogs/dialog.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/MyPosts/Post/Post.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/MyPosts/Post/Post.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/MyPosts/Post/post.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/MyPosts/Post/post.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/state.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/state.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +122,7 @@
       <workItem from="1655390092390" duration="1375000" />
       <workItem from="1655476608586" duration="5028000" />
       <workItem from="1655582781327" duration="9794000" />
-      <workItem from="1655594449339" duration="4506000" />
+      <workItem from="1655594449339" duration="21862000" />
     </task>
     <task id="LOCAL-00001" summary="15_01 les">
       <created>1649703072171</created>
@@ -197,7 +201,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655251832742</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="29 les">
+      <created>1655641474616</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655641474616</updated>
+    </task>
+    <task id="LOCAL-00013" summary="29 les">
+      <created>1655641507480</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1655641507480</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +243,7 @@
     <MESSAGE value="23 les" />
     <MESSAGE value="24 les" />
     <MESSAGE value="25 les" />
-    <option name="LAST_COMMIT_MESSAGE" value="25 les" />
+    <MESSAGE value="29 les" />
+    <option name="LAST_COMMIT_MESSAGE" value="29 les" />
   </component>
 </project>
