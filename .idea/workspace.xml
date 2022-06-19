@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da2c1437-9451-41d6-af45-fe3f611729a0" name="Changes" comment="24 les">
+    <list default="true" id="da2c1437-9451-41d6-af45-fe3f611729a0" name="Changes" comment="25 les">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/Dialogs/Dialog.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Dialogs/Dialog.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/main/MyPosts/MyPosts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/MyPosts/MyPosts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/Profile/Profile.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Profile/Profile.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/main/Profile/ProfileInfo/ProfileInfo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/main/Profile/ProfileInfo/ProfileInfo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +110,15 @@
       <workItem from="1651424852115" duration="41000" />
       <workItem from="1652192854172" duration="2000" />
       <workItem from="1654986068097" duration="9099000" />
-      <workItem from="1655246753966" duration="4566000" />
+      <workItem from="1655246753966" duration="13934000" />
+      <workItem from="1655325472983" duration="2814000" />
+      <workItem from="1655330828014" duration="135000" />
+      <workItem from="1655331290677" duration="592000" />
+      <workItem from="1655331886844" duration="6182000" />
+      <workItem from="1655390092390" duration="1375000" />
+      <workItem from="1655476608586" duration="5028000" />
+      <workItem from="1655582781327" duration="9794000" />
+      <workItem from="1655594449339" duration="4506000" />
     </task>
     <task id="LOCAL-00001" summary="15_01 les">
       <created>1649703072171</created>
@@ -178,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655249163725</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="25 les">
+      <created>1655251832742</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1655251832742</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +224,7 @@
     <MESSAGE value="22 les" />
     <MESSAGE value="23 les" />
     <MESSAGE value="24 les" />
-    <option name="LAST_COMMIT_MESSAGE" value="24 les" />
+    <MESSAGE value="25 les" />
+    <option name="LAST_COMMIT_MESSAGE" value="25 les" />
   </component>
 </project>

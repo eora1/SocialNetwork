@@ -1,16 +1,17 @@
-import React from "react";
+import React, {FC} from "react";
 import {Post} from "./Post/Post";
 import myPostStyle from './myPosts.module.css'
-import {v1} from "uuid";
+import {ProfilePageProps} from "../../../redux/state";
 
-export function MyPosts() {
-    let postData = [
-        {id: v1(), message: 'Hi ! how are you ?', likeCount: 12},
-        {id: v1(), message: 'Its my first post', likeCount: 20},
-    ]
+type StateType = {
+    profilePage: ProfilePageProps
+};
+
+export const MyPosts: FC<StateType> = (props) => {
+    let postData = props.profilePage.postData;
     let postElement = postData.map((p) => {
         return <Post id={p.id} message={p.message} likeCount={p.likeCount}/>
-    })
+    });
 
     return (
         <div className={myPostStyle.postBlock}>
@@ -28,4 +29,4 @@ export function MyPosts() {
             </div>
         </div>
     );
-}
+};

@@ -1,6 +1,5 @@
 import React from 'react';
 import profileStyle from './profileInfo.module.css'
-import {MyPosts} from "../../MyPosts/MyPosts";
 
 export const ProfileInfo = () => {
     return (

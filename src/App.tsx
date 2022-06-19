@@ -10,9 +10,10 @@ import {Dialog} from "./components/main/Dialogs/Dialog";
 import {News} from "./components/main/News/News";
 import {Music} from "./components/main/Music/Music";
 import {Settings} from "./components/main/Settings/Settings";
+import {StateType} from "./redux/state";
 
 
-function App() {
+export const App: React.FC<StateType> = (props) => {
     return (
         <BrowserRouter>
             <div className={classNames(wrap_style.wrapper, container_style.container)}>
@@ -20,8 +21,8 @@ function App() {
                 <Aside/>
                 <div className={wrap_style.wrapper_content}>
                     <Routes>
-                        <Route path="/profile" element={<Profile/>}/>
-                        <Route path="/dialogs/*" element={<Dialog/>}/>
+                        <Route path="/profile" element={<Profile profilePage={props.state.profilePage}/>}/>
+                        <Route path="/dialogs/*" element={<Dialog dialogPage={props.state.dialogPage}/>}/>
                         <Route path="/news" element={<News/>}/>
                         <Route path="/music" element={<Music/>}/>
                         <Route path="/settings" element={<Settings/>}/>
@@ -30,6 +31,4 @@ function App() {
             </div>
         </BrowserRouter>
     );
-}
-
-export default App
+};

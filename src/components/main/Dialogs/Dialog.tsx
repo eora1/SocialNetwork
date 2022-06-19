@@ -1,52 +1,24 @@
 import React from "react";
 import dialog_style from "./dialog.module.css"
-import {NavLink} from "react-router-dom";
-import {v1} from "uuid";
+import {DialogItem} from "./DialogItem/DialogItem";
+import {Message} from "./Message/Message";
+import {DialogPageProps} from "../../../redux/state";
 
-type DialogItemProps = {
-    id: string
-    name: string
-}
-const DialogItem: React.FC<DialogItemProps> = (props) => {
-    let path = "/dialogs/" + props.id
-    return (
-        <div className={dialog_style.dialogs_item + ' ' + dialog_style.active}>
-            <NavLink to={path}>{props.name}</NavLink>
-        </div>
-    )
+
+type StateType = {
+    dialogPage: DialogPageProps
 }
 
-type MessageProps = {
-    id: string
-    message: string
-}
-const Message: React.FC<MessageProps> = (props) => {
-    return (
-        <div className={dialog_style.messages_item}>{props.message}</div>
-    )
-}
-
-export function Dialog() {
-    let dialogsData = [
-        {id: v1(), name: 'Daniil'},
-        {id: v1(), name: 'Andrey'},
-        {id: v1(), name: 'Sveta'},
-        {id: v1(), name: 'Sasha'},
-        {id: v1(), name: 'Victor'},
-        {id: v1(), name: 'Valeriy'},
-    ];
+export const Dialog: React.FC<StateType> = (props: StateType) => {
+    let dialogsData = props.dialogPage.dialogsData;
     let dialogElement = dialogsData.map((i) => {
-        return <DialogItem name={i.name} id={i.id}/>
+        return <DialogItem id={i.id} name={i.name}/>
     });
 
-    let messagesData = [
-        {id: v1(), message: 'Hi'},
-        {id: v1(), message: 'How is your it-kamasutra?'},
-        {id: v1(), message: 'Yo'},
-    ];
+    let messagesData = props.dialogPage.messagesData;
     let messageElement = messagesData.map((m) => {
-        return <Message message={m.message} id={m.id}/>
-    })
+        return <Message id={m.id} message={m.message}/>
+    });
 
     return (
         <div>
@@ -59,5 +31,5 @@ export function Dialog() {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
